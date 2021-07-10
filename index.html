@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<!--IDEIA PAGINA DE AÇAI-->
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--SWIPPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- STYLES-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--ICONS-->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <title>delicousaçai</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">delicious<span>açai</span>.</a>
+        <div class="menu">
+          <ul class="grid nav">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#products">Produtos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/img/acai-gostoso.jpg"
+              alt="Mulher sorrindo penteando outra mulher"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Melhor Açaí da Região!</h2>
+            <p>
+              Estamos prontos para oferecer a você muita variedade e qualidade
+              com os melhores preços!
+            </p>
+            <a class="button" href="#contact">Quero meu Delicious!</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--ABOUT-->
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562166421-a406750d2535?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="3 mulheres"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Com mais de 10 anos no mercado, somos uma empresa com foco nos
+              mais variados e criativos produtos feitos com açai.
+            </p>
+            <br />
+            <p>
+              Analisando o mercado, vimos o grande potencial que o açai possui.
+              Com base nisso, utilizamos nossa criatividade aliada com mão de
+              obra qualificada para trazer o que há de melhor do açai.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--SERVICES-->
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header><h2 class="title">Serviços</h2></header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-truck"></i>
+              <h3 class="title">Entregamos no conforto da sua casa!</h3>
+            </div>
+            <div class="card">
+              <i class="icon-cup"></i>
+              <h3 class="title">
+                Personalize o seu <strong>Delicious</strong> da forma que
+                desejar!
+              </h3>
+            </div>
+            <div class="card">
+              <i class="icon-credit-card1"></i>
+              <h3 class="title">
+                Aceitamos todos os cartões de débito, crédito e até mesmo Pix!
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--PRODUCTS-->
+      <section class="section" id="products">
+        <div class="container">
+          <header>
+            <h2 class="title">Nossos produtos</h2>
+          </header>
+          <div class="products swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/acai-creme.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/acai-gostoso.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/jonathan-borba-BjpdHJrW2hM-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/portuguese-gravity-m27T_7FNfFU-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--TESTIMONIALS-->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <!--TIREI O GRID PARA DEIXAR A CAIXA DO TIPO BLOCK PARA QUE O SWIPER FUNCIONE-->
+          <header>
+            <h2 class="title">Depoimentos de quem já experimentou</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim quisquam, error quas ducimus magnam minus voluptates.
+                    Atque asperiores itaque dolores tempora odio corrupti
+                    quisquam suscipit, sint cupiditate modi accusantium aliquid?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/51.jpg"
+                      alt=""
+                    />
+                    Wanessa souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim quisquam, error quas ducimus magnam minus voluptates.
+                    Atque asperiores itaque dolores tempora odio corrupti
+                    quisquam suscipit, sint cupiditate modi accusantium aliquid?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/76.jpg"
+                      alt=""
+                    />
+                    Marcos almeida
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim quisquam, error quas ducimus magnam minus voluptates.
+                    Atque asperiores itaque dolores tempora odio corrupti
+                    quisquam suscipit, sint cupiditate modi accusantium aliquid?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/94.jpg"
+                      alt=""
+                    />
+                    Luis henrique
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--CONTACT-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">
+              Entre em contato com a gente e compre já o seu delicious!
+            </h2>
+            <p>
+              Nós da <strong>DeliciousAçai</strong> teremos o maior prazer em
+              tirar todas as suas dúvidas com o melhor atendimento.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5531971472138&text=Olá, gostaria de fazer meu pedido :)"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>31 971472138</li>
+              <li><i class="icon-mail"></i>matheus-henri2000@hotmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">delicious<span>açai</span>.</a>
+          <p>@2021 DeliciousAçai</p>
+          <p>Site criado por Matheus Henrique de Oliveira</p>
+          <p>Todos os direitos reservados.</p>
+          <p>
+            Empresa meramente ilustrativa para fins educacionais. Nenhuma imagem
+            contida nesse site possui direitos autorais. Todas obtidas por meio
+            de sites abertos!
+          </p>
+        </div>
+        <div class="social">
+          <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+          <a href="#" target="_blank"><i class="icon-facebook"></i></a>
+          <a href="#" target="_blank"><i class="icon-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="nav">
+      <a href="#home" class="back-to-top"
+        ><i class="icon-arrow-up-circle"></i
+      ></a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--main.js-->
+    <script src="main.js"></script>
+  </body>
+</html>
