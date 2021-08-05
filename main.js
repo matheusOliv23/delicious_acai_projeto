@@ -1,3 +1,10 @@
+/* PRE LOADER*/
+const overlay = document.querySelector('.overlay')
+
+window.addEventListener('load', function () {
+  overlay.style.display = 'none'
+})
+
 /*Abre e fecha o menu quando clicar no icone*/
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -101,8 +108,8 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #products header,
-  #testimonials header, #testimonials .testimonials
+  #products header, #products .swiper-container,
+  #testimonials header, #testimonials .testimonials,
   #contact .text, #contact .links,
   footer .brand, footer .social
 `,
